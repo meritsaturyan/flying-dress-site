@@ -1,0 +1,372 @@
+{
+  "shootTypes": [
+    {
+      "id": "solo",
+      "icon": "👤",
+      "labelKey": "shootType.solo"
+    },
+    {
+      "id": "friend",
+      "icon": "👭",
+      "labelKey": "shootType.friend"
+    },
+    {
+      "id": "group",
+      "icon": "👯‍♀️",
+      "labelKey": "shootType.group"
+    },
+    {
+      "id": "family",
+      "icon": "👨‍👩‍👧‍👦",
+      "labelKey": "shootType.family"
+    },
+    {
+      "id": "lovestory",
+      "icon": "💍",
+      "labelKey": "shootType.lovestory"
+    },
+    {
+      "id": "pregnancy",
+      "icon": "🤰",
+      "labelKey": "shootType.pregnancy"
+    },
+    {
+      "id": "custom",
+      "icon": "✨",
+      "labelKey": "shootType.custom"
+    }
+  ],
+  "packages": [
+    {
+      "id": "solo_basic",
+      "typeId": "solo",
+      "tier": "Basic",
+      "duration": "60 min",
+      "locations": 1,
+      "outfits": 1,
+      "media": "30 photos",
+      "edited": "10 retouched",
+      "price": "999 AED"
+    },
+    {
+      "id": "solo_standard",
+      "typeId": "solo",
+      "tier": "Standard",
+      "duration": "90 min",
+      "locations": 2,
+      "outfits": 2,
+      "media": "60 photos",
+      "edited": "20 retouched",
+      "price": "1499 AED"
+    },
+    {
+      "id": "solo_premium",
+      "typeId": "solo",
+      "tier": "Premium",
+      "duration": "120 min",
+      "locations": 3,
+      "outfits": 3,
+      "media": "100 photos",
+      "edited": "35 retouched",
+      "price": "1999 AED"
+    },
+    {
+      "id": "family_basic",
+      "typeId": "family",
+      "tier": "Basic",
+      "duration": "60 min",
+      "locations": 1,
+      "outfits": 1,
+      "media": "40 photos",
+      "edited": "12 retouched",
+      "price": "1199 AED"
+    },
+    {
+      "id": "family_standard",
+      "typeId": "family",
+      "tier": "Standard",
+      "duration": "90 min",
+      "locations": 2,
+      "outfits": 2,
+      "media": "80 photos",
+      "edited": "25 retouched",
+      "price": "1699 AED"
+    },
+    {
+      "id": "family_premium",
+      "typeId": "family",
+      "tier": "Premium",
+      "duration": "120 min",
+      "locations": 3,
+      "outfits": 3,
+      "media": "120 photos",
+      "edited": "40 retouched",
+      "price": "2299 AED"
+    },
+    {
+      "id": "lovestory_basic",
+      "typeId": "lovestory",
+      "tier": "Basic",
+      "duration": "60 min",
+      "locations": 1,
+      "outfits": 1,
+      "media": "40 photos",
+      "edited": "12 retouched",
+      "price": "1299 AED"
+    },
+    {
+      "id": "lovestory_standard",
+      "typeId": "lovestory",
+      "tier": "Standard",
+      "duration": "90 min",
+      "locations": 2,
+      "outfits": 2,
+      "media": "80 photos",
+      "edited": "25 retouched",
+      "price": "1799 AED"
+    },
+    {
+      "id": "lovestory_premium",
+      "typeId": "lovestory",
+      "tier": "Premium",
+      "duration": "120 min",
+      "locations": 3,
+      "outfits": 3,
+      "media": "120 photos",
+      "edited": "40 retouched",
+      "price": "2399 AED"
+    },
+    {
+      "id": "pregnancy_basic",
+      "typeId": "pregnancy",
+      "tier": "Basic",
+      "duration": "60 min",
+      "locations": 1,
+      "outfits": 1,
+      "media": "35 photos",
+      "edited": "10 retouched",
+      "price": "1199 AED"
+    },
+    {
+      "id": "pregnancy_standard",
+      "typeId": "pregnancy",
+      "tier": "Standard",
+      "duration": "90 min",
+      "locations": 2,
+      "outfits": 2,
+      "media": "70 photos",
+      "edited": "22 retouched",
+      "price": "1699 AED"
+    },
+    {
+      "id": "pregnancy_premium",
+      "typeId": "pregnancy",
+      "tier": "Premium",
+      "duration": "120 min",
+      "locations": 3,
+      "outfits": 3,
+      "media": "110 photos",
+      "edited": "38 retouched",
+      "price": "2299 AED"
+    },
+    {
+      "id": "friend_basic",
+      "typeId": "friend",
+      "tier": "Basic",
+      "duration": "60 min",
+      "locations": 1,
+      "outfits": 1,
+      "media": "50 photos",
+      "edited": "15 retouched",
+      "price": "1299 AED"
+    },
+    {
+      "id": "friend_standard",
+      "typeId": "friend",
+      "tier": "Standard",
+      "duration": "90 min",
+      "locations": 2,
+      "outfits": 2,
+      "media": "90 photos",
+      "edited": "30 retouched",
+      "price": "1899 AED"
+    },
+    {
+      "id": "friend_premium",
+      "typeId": "friend",
+      "tier": "Premium",
+      "duration": "120 min",
+      "locations": 3,
+      "outfits": 3,
+      "media": "140 photos",
+      "edited": "45 retouched",
+      "price": "2599 AED"
+    },
+    {
+      "id": "group_basic",
+      "typeId": "group",
+      "tier": "Basic",
+      "duration": "60 min",
+      "locations": 1,
+      "outfits": 1,
+      "media": "60 photos",
+      "edited": "18 retouched",
+      "price": "1499 AED"
+    },
+    {
+      "id": "group_standard",
+      "typeId": "group",
+      "tier": "Standard",
+      "duration": "90 min",
+      "locations": 2,
+      "outfits": 2,
+      "media": "110 photos",
+      "edited": "35 retouched",
+      "price": "2199 AED"
+    },
+    {
+      "id": "group_premium",
+      "typeId": "group",
+      "tier": "Premium",
+      "duration": "120 min",
+      "locations": 3,
+      "outfits": 3,
+      "media": "170 photos",
+      "edited": "55 retouched",
+      "price": "2999 AED"
+    },
+    {
+      "id": "custom_basic",
+      "typeId": "custom",
+      "tier": "Basic",
+      "duration": "60 min",
+      "locations": 1,
+      "outfits": 1,
+      "media": "—",
+      "edited": "—",
+      "price": "by request"
+    },
+    {
+      "id": "custom_standard",
+      "typeId": "custom",
+      "tier": "Standard",
+      "duration": "90 min",
+      "locations": 2,
+      "outfits": 2,
+      "media": "—",
+      "edited": "—",
+      "price": "by request"
+    },
+    {
+      "id": "custom_premium",
+      "typeId": "custom",
+      "tier": "Premium",
+      "duration": "120 min",
+      "locations": 3,
+      "outfits": 3,
+      "media": "—",
+      "edited": "—",
+      "price": "by request"
+    }
+  ],
+  "gallery": {
+    "solo": [
+      "https://images.unsplash.com/photo-1520975682071-a0ea27a1f0e5?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975958221-30b54d7803c5?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975693415-4de43ef6d6f5?auto=format&fit=crop&w=900&q=80"
+    ],
+    "friend": [
+      "https://images.unsplash.com/photo-1520975905165-e1d1e8e2a2fc?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975889228-3c0cb12a52c0?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975880552-9b984b3882b9?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975893726-d3b457769278?auto=format&fit=crop&w=900&q=80"
+    ],
+    "group": [
+      "https://images.unsplash.com/photo-1520975690410-3b3d8c9a0d83?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975676246-3c7f0df0dbd6?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975691004-0adf7eecca40?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975665201-c7b6b7a1b57b?auto=format&fit=crop&w=900&q=80"
+    ],
+    "family": [
+      "https://images.unsplash.com/photo-1542718610-a1d656d1884d?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1542878672-ccc74b7d2e6f?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520963057774-1e64c77e0bb3?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1511988617509-a57c8a288659?auto=format&fit=crop&w=900&q=80"
+    ],
+    "lovestory": [
+      "https://images.unsplash.com/photo-1529634806980-85c4b7a0b65a?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1529333166437-7750a6dd5a70?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1529335764857-3f1164d1cb24?auto=format&fit=crop&w=900&q=80"
+    ],
+    "pregnancy": [
+      "https://images.unsplash.com/photo-1516632664305-eda5d5f4046f?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1524504388940-89b3f0a2c9cc?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1516632664305-0c5c0f7d56da?auto=format&fit=crop&w=900&q=80"
+    ],
+    "custom": [
+      "https://images.unsplash.com/photo-1496449903678-68ddcb189a24?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975912414-7c3ef1d3c8aa?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1520975929159-5c19bfe8c1c3?auto=format&fit=crop&w=900&q=80",
+      "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=900&q=80"
+    ]
+  },
+  "locations": [
+    {
+      "id": "desert",
+      "title": "Desert",
+      "image": "https://images.unsplash.com/photo-1509316785289-025f5b846b35?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "downtown",
+      "title": "Downtown",
+      "image": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "marina",
+      "title": "Marina",
+      "image": "https://images.unsplash.com/photo-1526481280695-3c687fd643ed?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "beach",
+      "title": "Beach",
+      "image": "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1200&q=80"
+    }
+  ],
+  "dresses": [
+    {
+      "id": "flying",
+      "title": "Flying dresses",
+      "image": "https://images.unsplash.com/photo-1520976021962-13205e16b2bb?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "arabic",
+      "title": "Arabic looks",
+      "image": "https://images.unsplash.com/photo-1520975871477-4f86c1a2c5fd?auto=format&fit=crop&w=1200&q=80"
+    },
+    {
+      "id": "menkids",
+      "title": "Men & kids",
+      "image": "https://images.unsplash.com/photo-1506634572416-48cdfe530110?auto=format&fit=crop&w=1200&q=80"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "name": "Anna",
+      "text": "Amazing experience in Dubai! Loved the dress and locations."
+    },
+    {
+      "id": 2,
+      "name": "Sara",
+      "text": "Very professional, fast delivery and beautiful photos."
+    },
+    {
+      "id": 3,
+      "name": "Mariam",
+      "text": "We did a family shoot — super comfortable and fun!"
+    }
+  ]
+}
